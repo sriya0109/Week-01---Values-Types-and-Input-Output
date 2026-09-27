@@ -76,3 +76,7 @@ print("=" * 30)
 # 1. Print:  The alert said "disk full" on server 'srv-01'
 # 2. Print a line of 50 dashes without typing 50 dashes.
 # 3. Predict what "7" * 3 and 7 * 3 print. Then check.
+print("The alert said \"disk full\" on server 'srv-01'")
+print("-" * 50)
+print("7" * 3)  # This will print 777
+print(7 * 3)    # This will print 21

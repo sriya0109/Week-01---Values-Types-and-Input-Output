@@ -72,3 +72,9 @@ print(total)             # 140
 #    percentage that failed, and the percentage that passed.
 # 2. Do it without typing any number you could calculate.
 # 3. Start total at 100. Subtract 30, then double it, using short forms.
+passed = total_rows - missing_rows
+percent_failed = (missing_rows / total_rows) * 100
+percent_passed = (passed / total_rows) * 100
+print("Passed:", passed)
+print("Percent failed:", percent_failed, "%")
+print("Percent passed:", percent_passed, "%")

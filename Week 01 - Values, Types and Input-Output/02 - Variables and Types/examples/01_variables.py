@@ -76,3 +76,12 @@ print(hostname, disk_used)
 # 1. Store your name and course in two well-named variables, print both.
 # 2. Rewrite this with good names:   x = "srv-01" ; y = 87 ; print(x, y)
 # 3. Before running: what does  p = 1 ; q = p ; p = 9 ; print(p, q)  give?
+student_name = "Sriya"
+course_name = "CST1510"
+print(student_name, course_name)
+hostname, disk_used = "srv-01", 87
+print(hostname, disk_used)
+p = 1
+q = p
+p = 9
+print(p, q)  # This will print 9 1

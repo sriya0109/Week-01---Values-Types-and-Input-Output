@@ -70,6 +70,12 @@ print("Backup complete - 4 of 4 servers")             # IT
 
 
 # --- TRY IT ----------------------------------------------------------------
-# 1. Print your name and age using commas, then again using an f-string.
+# 1.  your name and age using commas, then again using an f-string.
 # 2. Print today's date as 14/09/2026 using sep="/".
 # 3. Add the line  print("Value: " + 23.7)  - read the error, then fix it.
+name= "sriya"
+age= 18
+print(name, age)
+print(f"My name is {name} and I am {age} years old.")
+print("Today's date is", 14, 9, 2026, sep="/")
+print(f"Value: {23.7}")

@@ -72,3 +72,14 @@ print(type(answer))           # <class 'str'>
 # 1. Print the type of:  "5"   5   5.0   "5.0"
 # 2. Predict, then check:  "3" + "4"   and   3 + 4
 # 3. Add the line  print("20" + 20)  - read the error, then fix it two ways.
+print(type("5"))    # <class 'str'>
+print(type(5))      # <class 'int'>
+print(type(5.0))    # <class 'float'>
+print(type("5.0"))  # <class 'str'>
+print("3" + "4")    # 34
+print(3 + 4)        # 7
+print("20" + "20")  # 2020
+print(20 + 20)      # 40
+print("20" + str(20))  # 2020
+print(int("20") + 20)  # 40
+

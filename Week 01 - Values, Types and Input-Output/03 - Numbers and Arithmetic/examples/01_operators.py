@@ -82,3 +82,22 @@ print((value / limit) * 100)    # same answer, obvious intent
 # 3. 500 seconds is how many whole minutes, and how many seconds left over?
 # 4. 9137 seconds is how many hours, minutes and seconds? Chain the split
 #    the way section 3b does - hours first, then split what's left over.
+a = 23
+b = 4
+print("a + b  =", a + b)      # 27        add
+print("a - b  =", a - b)      # 19        subtract
+print("a * b  =", a * b)      # 92        multiply
+print("a / b  =", a / b)      # 5.75      divide
+print("a // b =", a // b)     # 5         divide, whole part only
+print("a % b  =", a % b)      # 3         remainder
+print("a ** b =", a ** b)     # 279841    a to the power of b
+print((10 + 6) / 2)            # 8.0
+minutes = 500 // 60
+seconds = 500 % 60
+print("500 seconds =", minutes, "minutes and", seconds, "seconds")
+total_seconds = 9137
+hours = total_seconds // 3600
+remaining = total_seconds % 3600
+minutes = remaining // 60
+seconds = remaining % 60
+print("9137 seconds =", hours, "hours,", minutes, "minutes,", seconds, "seconds")
