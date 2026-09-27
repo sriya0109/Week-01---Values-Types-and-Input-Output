@@ -90,3 +90,8 @@ print(f"{hostname:<12} disk {used:>3} %")                         # IT
 # 2. Print your name left-aligned in 15 characters, then a number right-
 #    aligned in 8. Do it for three different names and check they line up.
 # 3. Remove the f from one line above. Run it. Put it back.
+print(f"7 / 3 = {7 / 3:.3f}")
+print(f"{'Sriya':<15}{123:>8}")
+print(f"{'Bob':<15}{4567:>8}")
+print(f"{'Charlie':<15}{89:>8}")
+print("7 / 3 = {7 / 3:.3f}")  # This will not evaluate the expression, it will print it as a string.

@@ -62,3 +62,6 @@ print(type(value))            # <class 'float'>
 # 1. Ask for GB used and GB total, convert both, print how many GB are free.
 # 2. Change one float() to int() and enter 87.5. Read the error.
 # 3. What happens if you just press Enter without typing anything?
+print("GB used  :", float(input("GB used  : ")))
+print("GB total :", float(input("GB total : ")))
+print("GB free  :", float(input("GB total : ")) - float(input("GB used  : ")))
