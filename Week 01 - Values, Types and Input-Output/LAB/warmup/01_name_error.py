@@ -3,4 +3,5 @@
 
 record_id = "R-004"
 
-print(record_ID)
+print(record_id)
+print("Record", record_id, "has value", value)
