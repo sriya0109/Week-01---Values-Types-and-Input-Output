@@ -20,7 +20,11 @@ that is on purpose.
    and where it goes).
 
 *Adapted from: 100 Days of Code, Day 1.*
-
+print("Welcome to the band name generater")
+city= input("Which city did you grow up in?\n")
+pet= input("What is the name of your pet?\n")
+band_name=city+" "+ pet
+print("Your band name could be"+band_name+"!" )
 ---
 
 ## Tip Calculator
@@ -38,6 +42,16 @@ should pay `(150.00 / 5) * 1.12 = 33.6`, formatted to 2 decimal places:
    decimal places.
 
 *Adapted from: 100 Days of Code, Day 2.*
+print("Welcome to the Tip Calculator!")
+
+bill = float(input("What was the total bill? $"))
+people = int(input("How many people are splitting the bill? "))
+tip = int(input("What percentage tip would you like to give? "))
+
+total = bill * (1 + tip / 100)
+each_person = total / people
+
+print(f"Each person should pay: ${each_person:.2f}")
 
 ---
 
